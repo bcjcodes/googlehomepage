@@ -1,0 +1,125 @@
+body {
+  margin: 0 auto;
+}
+main {
+  padding: 10px, 25px, 10px, 25px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+nav .nav-item {
+  margin: 16px 0px 0px 20px;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+nav .menu-icon {
+  width: 25px;
+  height: 25px;
+  /* margin-top: 10px;
+  margin-left: 20px; */
+  margin: 10px 0px 0px 20px;
+}
+
+nav span img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 8px 50px 0px 20px;
+}
+.container {
+  text-align: center;
+  margin-top: 8em;
+}
+.container img {
+  margin-bottom: 20px;
+}
+form {
+  position: relative;
+}
+form input {
+  width: 40%;
+  height: 40px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  border: none;
+  padding-left: 50px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form #google-mic {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 40px;
+  top: 25px;
+}
+form i {
+  position: relative;
+  left: 40px;
+  top: 1px;
+  color: grey;
+}
+
+div .submit {
+  margin: 2em 0.5em 0em 0em;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  color: gray;
+  border-radius: 4px;
+}
+.link {
+  margin: 16px 0px 0px 5px;
+  font-size: 13px;
+}
+.link .links {
+  text-decoration: none;
+  color: blue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  /* font-weight: 400; */
+}
+.hline {
+  margin-top: 8.4em;
+  padding-top: 10px;
+  height: 40px;
+  background-color: rgba(128, 128, 128, 0.171);
+  box-sizing: border-box;
+}
+.nigref {
+  text-decoration: none;
+  margin: 30px 0px 0px 40px;
+  color: gray;
+}
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.171);
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid rgba(128, 128, 128, 0.171);
+}
+.left-footer {
+  margin: 15px 0px 0px 40px;
+  word-spacing: 10px;
+}
+.left-footer a {
+  text-decoration: none;
+  color: gray;
+}
+.right-footer {
+  float: right;
+  margin: -19px 30px 0px 0px;
+  word-spacing: 10px;
+}
+.right-footer a {
+  text-decoration: none;
+  color: gray;
+}
